@@ -4302,11 +4302,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "הוספה ועריכת קישור בתוצאות החיפוש"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d מוצרים ייוצאו."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "שם המאכל ב‏־CIQUAL"
@@ -4630,10 +4625,6 @@ msgstr "מזון מעובד מאוד"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "ייצוא מוצר למסד נתונים ציבורי"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "מוצר אחד ייוצא."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5128,6 +5119,10 @@ msgstr "ניהול המוצרים שלך בפלטפורמה ליצרנים"
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "מספר המוצרים עם שינויים מאז הייצוא האחרון"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "מספר המוצרים שנמשכו מהשוק מאז הייצוא האחרון"
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6525,4 +6520,16 @@ msgstr "מדריך למשתמש בפלטפורמת פרו"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "שאלות נפוצות של יצרנים"
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr "נא למלא ערך בין 0 ל־100."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "הסוכרים לא יכולים לעלות על כמות הפחמימות."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "שומן רווי לא יכול לעלות על כמות השומן."
 

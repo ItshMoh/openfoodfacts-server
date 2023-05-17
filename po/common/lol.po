@@ -2626,15 +2626,15 @@ msgstr "crwdns202448:0crwdne202448:0"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "crwdns208799:0%dcrwdne208799:0"
+msgstr "crwdns209171:0%dcrwdne209171:0"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "crwdns208801:0%scrwdnd208801:0%dcrwdne208801:0"
+msgstr "crwdns209173:0%scrwdnd209173:0%dcrwdne209173:0"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "crwdns208803:0%dcrwdne208803:0"
+msgstr "crwdns209175:0%dcrwdne209175:0"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4270,11 +4270,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "crwdns203246:0crwdne203246:0"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "crwdns203248:0%dcrwdne203248:0"
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "crwdns203250:0crwdne203250:0"
@@ -4598,10 +4593,6 @@ msgstr "crwdns203404:0crwdne203404:0"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "crwdns203406:0crwdne203406:0"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "crwdns203408:0crwdne203408:0"
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5096,6 +5087,10 @@ msgstr "crwdns203642:0crwdne203642:0"
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "crwdns203644:0crwdne203644:0"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "crwdns209177:0crwdne209177:0"
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6493,4 +6488,16 @@ msgstr "crwdns206733:0crwdne206733:0"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "crwdns206735:0crwdne206735:0"
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr "crwdns209183:0crwdne209183:0"
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "crwdns209185:0crwdne209185:0"
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "crwdns209187:0crwdne209187:0"
 

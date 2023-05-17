@@ -183,7 +183,7 @@ msgstr "إضافي"
 
 msgctxt "advanced_search"
 msgid "Advanced search"
-msgstr ""
+msgstr "البحث المتقدم"
 
 msgctxt "advanced_search_old"
 msgid "Advanced search and graphs"
@@ -1020,7 +1020,7 @@ msgstr "المكونات"
 
 msgctxt "no_ingredient"
 msgid "Ingredients are missing"
-msgstr ""
+msgstr "المكونات مفقودة"
 
 msgctxt "one_ingredient"
 msgid "1 ingredient"
@@ -2660,11 +2660,11 @@ msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "تحذير: كمية الفواكه والخضروات والمكسرات غير محددة على الملصق ، تم تقديرها من فئة (%s) من المنتج: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "تحذير: كمية الفواكه والخضروات والمكسرات غير محددة على الملصق ، فقد قدرت من قائمة المكونات: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -3270,7 +3270,7 @@ msgstr "الترجمة الحالية"
 
 msgctxt "button_caption_yes"
 msgid "Yes"
-msgstr ""
+msgstr "Expiry date"
 
 msgctxt "button_caption_no"
 msgid "No"
@@ -4300,11 +4300,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr ""
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d منتج مصدر."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "اسم طعام CIQUAL"
@@ -4627,10 +4622,6 @@ msgstr ""
 
 msgctxt "export_product_page"
 msgid "Export product to public database"
-msgstr ""
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
 msgstr ""
 
 msgctxt "no_products_to_export"
@@ -5126,6 +5117,10 @@ msgstr ""
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr ""
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "عدد المنتجات المسحوبة من السوق منذ آخر تصدير"
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6103,7 +6098,7 @@ msgstr ""
 # The translation needs to be short as it is displayed at the top of small product cards
 msgctxt "products_match_poor_match"
 msgid "Poor match"
-msgstr ""
+msgstr "ثمن"
 
 # The translation needs to be short as it is displayed at the top of small product cards
 msgctxt "products_match_unknown_match"
@@ -6522,5 +6517,17 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 

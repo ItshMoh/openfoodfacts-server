@@ -2654,15 +2654,15 @@ msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis nenurodytas, neatsi
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis etiketėje nenurodytas, jis buvo apskaičiuotas rankiniu būdu pagal ingredientų sąrašą: %d"
+msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis etiketėje nenurodytas, jis buvo apskaičiuotas rankiniu būdu iš ingredientų sąrašo: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis nenurodytas etiketėje, jis buvo apskaičiuotas pagal kategoriją (%s) produkto: %d"
+msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis etiketėje nenurodytas, jis buvo apskaičiuotas pagal %d produkto kategoriją: %s"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis nenurodytas etiketėje, jis buvo apskaičiuotas pagal sudėtį %d"
+msgstr "Įspėjimas: vaisių, daržovių ir riešutų kiekis etiketėje nenurodytas, apskaičiuotas pagal ingredientų sąrašą: %d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4298,11 +4298,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Pridėkite redagavimo nuorodą paieškos rezultatuose"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d produktų bus eksportuota."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "CIQUAL maisto pavadinimas"
@@ -4626,10 +4621,6 @@ msgstr "Ultra perdirbtas maistas"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Eksportuokite produktą į viešą duomenų bazę"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 produktas bus eksportuotas."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5123,6 +5114,10 @@ msgstr "Valdykite savo produktus gamintojams skirtoje platformoje"
 
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
+msgstr ""
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
 msgstr ""
 
 msgctxt "only_export_products_with_changes"
@@ -6521,4 +6516,16 @@ msgstr ""
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr "Įveskite reikšmę nuo 0 iki 100."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "Cukrų neturi būti daugiau negu angliavandenių."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "Sočiųjų riebalų neturi būti daugiau negu riebalų."
 

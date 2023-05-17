@@ -2656,15 +2656,15 @@ msgstr "경고: 과일, 야채, 견과류의 양이 명시되지 않았으며, �
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr ""
+msgstr "경고: 라벨에 과일, 야채 및 견과류의 양이 명시되지 않았으며, 재료 목록에서 다음과 같이 수동으로 추정되었습니다: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "경고: 라벨에 과일, 야채 및 견과류의 양이 명시되지 않았으며, 제품의 범주(%s)에서 추정되었습니다:%d"
+msgstr "경고: 라벨에 과일, 야채 및 견과류의 양이 명시되지 않았으며, 제품의 범주(%s)에서 추정되었습니다: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "경고: 라벨에 과일, 야채 및 견과류의 양이 명시되지 않았으며, 재료 목록에서 다음과 같이 추정되었습니다.:%d"
+msgstr "경고: 라벨에 과일, 야채 및 견과류의 양이 명시되지 않았으며, 재료 목록에서 다음과 같이 추정되었습니다: %d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4300,11 +4300,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "검색 결과에 편집 링크 추가"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d 상품을 내보냅니다."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "CIQUAL 음식 이름"
@@ -4628,10 +4623,6 @@ msgstr "초가공식품"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "공개 데이터베이스로 제품 내보내기"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1개의 제품이 수출됩니다."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5127,6 +5118,10 @@ msgstr "생산자를 위한 플랫폼에서 제품 관리"
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "마지막 내보내기 이후 변경된 제품 수"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6523,5 +6518,17 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 

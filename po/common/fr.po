@@ -1568,7 +1568,7 @@ msgstr "Le tableau liste par défaut les nutriments les plus couramment indiqué
 
 msgctxt "nutrition_data_table_asterisk"
 msgid "Essential nutrients to calculate the Nutri-Score."
-msgstr "Nutriments essentiels pour calculer le Nutri-Score."
+msgstr "Des nutriments essentiels pour calculer le Nutri-Score."
 
 msgctxt "nutrition_grades_p"
 msgid "Nutrition grades"
@@ -2646,7 +2646,7 @@ msgstr "Charger les images en basse résolution (pour les connexions lentes)"
 
 msgctxt "nutrition_grade_fr_nutriments_estimated_warning"
 msgid "Warning: the nutrition facts are not specified. They have been estimated from the list of ingredients."
-msgstr "Avertissement : les valeurs nutritionnelles n'étant pas renseignées, elles ont été estimées à partir de la liste des ingrédients."
+msgstr "Attention : les valeurs nutritionnelles ne sont pas précisées. Ils ont été estimés à partir de la liste des ingrédients."
 
 msgctxt "nutrition_grade_fr_fiber_warning"
 msgid "Warning: the amount of fiber is not specified, their possible positive contribution to the grade could not be taken into account."
@@ -3412,7 +3412,7 @@ msgstr "Photos des produits"
 
 msgctxt "fields_group_packaging"
 msgid "Packaging"
-msgstr "Emballage"
+msgstr "Conditionnement"
 
 msgctxt "image_front_url"
 msgid "Link to front product photo"
@@ -4306,11 +4306,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Ajouter un lien de modification dans les résultats de recherche"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d produits seront exportés."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "Nom de l'aliment CIQUAL"
@@ -4634,10 +4629,6 @@ msgstr "Aliments ultra-transformés"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Exporter le produit vers la base de données publique"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 produit sera exporté."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5006,7 +4997,7 @@ msgstr "Elements d'emballage"
 # A short name for a physical piece of packaging (e.g. in English, "packaging" instead of "packaging part"). Used with a number (e.g. "Packaging 1" to identify a packaging part)
 msgctxt "packaging_part_short"
 msgid "Packaging"
-msgstr "Emballage"
+msgstr "Conditionnement"
 
 # Number of packaging parts
 msgctxt "packaging_number"
@@ -5131,6 +5122,10 @@ msgstr "Gérez vos produits sur la plateforme pour les producteurs"
 
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
+msgstr "Nombre de produits avec des modifications depuis le dernier export"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
 msgstr "Nombre de produits avec des modifications depuis le dernier export"
 
 msgctxt "only_export_products_with_changes"
@@ -6392,7 +6387,7 @@ msgstr "JSON invalide dans le corps de la requête"
 
 msgctxt "api_message_invalid_code"
 msgid "Invalid code"
-msgstr ""
+msgstr "Code invalide"
 
 msgctxt "api_message_invalid_type_must_be_object"
 msgid "Invalid type: must be an object"
@@ -6416,7 +6411,7 @@ msgstr "Champ manquant"
 
 msgctxt "api_message_unrecognized_field"
 msgid "Unrecognized field"
-msgstr ""
+msgstr "Champ non reconnu {0}"
 
 msgctxt "api_message_unrecognized_value"
 msgid "Unrecognized value"
@@ -6516,7 +6511,7 @@ msgstr "Installez l'application pour ajouter des produits"
 
 msgctxt "search_and_analyze_products"
 msgid "Search and analyze products"
-msgstr "Rechercher et analyser des produits"
+msgstr "Chercher et Analyser des Produits"
 
 msgctxt "resources"
 msgid "Resources"
@@ -6529,4 +6524,16 @@ msgstr "Guide d'utilisation de la plateforme pro"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "FAQ pour les Producteurs"
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr ""
 

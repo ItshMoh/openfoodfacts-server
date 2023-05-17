@@ -2660,7 +2660,7 @@ msgstr "Attenzione: la quantità di frutta, verdura e noci non è specificata. I
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr ""
+msgstr "Attenzione: la quantità di frutta, verdura e noci non è specificata sull'etichetta, è stata stimata manualmente dall'elenco di ingredienti: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
@@ -4304,11 +4304,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Aggiungi un link di modifica nei risultati di ricerca"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d prodotti saranno esportati."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "Nome alimento CIQUAL"
@@ -4344,7 +4339,7 @@ msgstr "Unisciti al canale #ingredients sul <a href=\"https://slack.openfoodfact
 
 msgctxt "footer_producers_link"
 msgid "https://world.pro.openfoodfacts.org/"
-msgstr "https://world.pro.openfoodfacts.org/"
+msgstr "https://it.pro.openfoodfacts.org/"
 
 msgctxt "footer_producers"
 msgid "Producers"
@@ -4632,10 +4627,6 @@ msgstr "Alimenti ultra-trasformati"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Esporta prodotto nel database pubblico"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 prodotto sarà esportato."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5130,6 +5121,10 @@ msgstr "Gestisci i tuoi prodotti sulla piattaforma per i produttori"
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Numero di prodotti con modifiche dall'ultima esportazione"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6526,5 +6521,17 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 

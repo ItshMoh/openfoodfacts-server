@@ -2655,15 +2655,15 @@ msgstr "Увага: певна кількість фруктів, овочів �
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr ""
+msgstr "Увага: кількість фруктів, овочів та горіхів не зазначено на етикетці, їх було розраховано вручну згідно зі списком інгредієнтів: %d%"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Попередження: кількість фруктів, овочів та горіхів не зазначена на етикетці, вона оцінюється зі списку інгредієнтів: %d"
+msgstr "Попередження: кількість фруктів, овочів та горіхів не вказана на етикетці, її розраховано з категорії (%s) продукту: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Попередження: кількість фруктів, овочів та горіхів не зазначена на етикетці, вона оцінюється зі списку інгредієнтів: %d"
+msgstr "Попередження: кількість фруктів, овочів та горіхів не зазначена на етикетці, її розраховано за списком інгредієнтів: %d%"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4303,11 +4303,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Додайте посилання для редагування в результатах пошуку"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d товарів буде експортовано."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "Назва харчової добавки CIQUAL"
@@ -4631,10 +4626,6 @@ msgstr "Сильно оброблені харчові продукти"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Експортуйте продукцію до загальнодоступної бази даних"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1-у продукцію буде експортовано."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5129,6 +5120,10 @@ msgstr "Розпоряджайтесь своїми товарами на пла
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Коефіцієнт товарів, які зазнали змін з того часу як були експортованими востаннє"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6525,5 +6520,17 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 

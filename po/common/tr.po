@@ -2654,15 +2654,15 @@ msgstr "Uyarı: Meyve, sebze ve fındık fıstık belirtilmedi. Olası olumlu ka
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "Uyarı: Meyve, sebze ve kuruyemiş miktarı etikette belirtilmemiştir, içindekiler listesinden manuel olarak tahmin edilmiştir: %d"
+msgstr "Dikkat: meyvelerin, sebzelerin ve fındık miktarları etikette belirlenmemiş, temel olarak içerik listesinden esas alınmıştır:%d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Uyarı: Meyve, sebze ve fındık miktarı etiket üzerinde belirtilmemiş, (%s) kategorisinden %d ürününe göre hesaplanmıştır"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Uyarı: Meyve, sebze ve fındık miktarı etiket üzerinde belirtilmemiş, içerikler listesinden hesaplanmıştır: %d"
+msgstr ""
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4298,11 +4298,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Arama sonuçlarına bir düzenleme bağlantısı ekleyin"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d ürün ihraç edilecektir."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "CIQUAL yiyecek adı"
@@ -4626,10 +4621,6 @@ msgstr "Üst düzey işlemden geçmiş yiyecekler"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Ürünleri herkese açık veritabanına aktarın"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 ürün ihraç edilecektir."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5124,6 +5115,10 @@ msgstr "Ürünlerinizi üreticiler için platformda yönetin"
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr ""
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr "Son dışa aktarımdan bu yana piyasadan çekilen ürün sayısı"
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6521,4 +6516,16 @@ msgstr "Pro platformu kullanım kılavuzu"
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr "Üreticiler için SSS"
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr "Lütfen 0 ile 100 arasında bir değer giriniz."
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "Şekerler karbonhidratlardan daha yüksek olmamalıdır."
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "Doymuş yağ, yağdan daha yüksek olmamalıdır."
 

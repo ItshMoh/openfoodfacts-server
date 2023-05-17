@@ -2659,15 +2659,15 @@ msgstr "警告: 果物、野菜、ナッツの量が指定されていません�
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。原材料のリストから推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、原材料のリストから手作業で推定されました：%d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。製品のカテゴリー (%s) から推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、製品のカテゴリ（%s）から推定されました：%d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "警告: 果物、野菜、ナッツの量はラベルに明記されていません。原材料のリストから推定されました: %d"
+msgstr "警告：果物、野菜、ナッツの量がラベルに明記されていなかったため、原材料のリストから推定されました：%d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4303,11 +4303,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "検索結果に編集リンクを追加"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d 件の製品がエクスポートされます。"
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "CIQUAL食品名"
@@ -4631,10 +4626,6 @@ msgstr "超加工食品"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "製品を公開データベースにエクスポートする"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1件の製品がエクスポートされます。"
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5128,6 +5119,10 @@ msgstr "生産者向けプラットフォームで製品を管理"
 
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
+msgstr "前回のエクスポート以降に変更された製品の数"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
 msgstr "前回のエクスポート以降に変更された製品の数"
 
 msgctxt "only_export_products_with_changes"
@@ -6526,4 +6521,16 @@ msgstr ""
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
 msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr "0～100までの値を入力してください"
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr "糖質は炭水化物より高くてはなりません。"
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
+msgstr "飽和脂肪は脂肪よりも高くてはいけません。"
 

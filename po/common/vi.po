@@ -2659,15 +2659,15 @@ msgstr "Cảnh báo: số lượng trái cây, rau và quả hạch không đư�
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was manually estimated from the list of ingredients: %d"
-msgstr ""
+msgstr "Cảnh báo: lượng trái cây, rau và quả hạch không được ghi trên nhãn, được ước tính từ danh sách các thành phần: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_from_category_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the category (%s) of the product: %d"
-msgstr "Cảnh báo: số lượng trái cây, rau và quả hạch không được ghi trên nhãn, được ước tính từ loại (%s) của sản phẩm: %d"
+msgstr "Cảnh báo: số lượng trái cây, rau và quả hạch không được ghi trên nhãn, thông tin được ước tính từ danh mục (%s) của sản phẩm: %d"
 
 msgctxt "nutrition_grade_fr_fruits_vegetables_nuts_estimate_from_ingredients_warning"
 msgid "Warning: the amount of fruits, vegetables and nuts is not specified on the label, it was estimated from the list of ingredients: %d"
-msgstr "Cảnh báo: lượng trái cây, rau và quả hạch không được ghi trên nhãn, được ước tính từ danh sách các thành phần: %d"
+msgstr "Cảnh báo: lượng trái cây, rau và quả hạch không được ghi trên nhãn, thông tin được ước tính từ danh sách các thành phần: %d"
 
 msgctxt "nutrition_grade_fr_title"
 msgid "NutriScore color nutrition grade"
@@ -4303,11 +4303,6 @@ msgctxt "edit_link_in_search"
 msgid "Add an edit link in search results"
 msgstr "Thêm liên kết chỉnh sửa trong kết quả tìm kiếm"
 
-# leave the %d, it will be replaced by a number
-msgctxt "n_products_will_be_exported"
-msgid "%d products will be exported."
-msgstr "%d sản phẩm sẽ được xuất."
-
 msgctxt "ciqual_food_name"
 msgid "CIQUAL food name"
 msgstr "Tên thực phẩm CIQUAL"
@@ -4631,10 +4626,6 @@ msgstr "Thực phẩm siêu chế biến"
 msgctxt "export_product_page"
 msgid "Export product to public database"
 msgstr "Xuất sản phẩm sang cơ sở dữ liệu công khai"
-
-msgctxt "one_product_will_be_exported"
-msgid "1 product will be exported."
-msgstr "1 sản phẩm sẽ được xuất."
 
 msgctxt "no_products_to_export"
 msgid "No products to export."
@@ -5129,6 +5120,10 @@ msgstr "Quản lý sản phẩm của bạn trên nền tảng dành cho nhà s�
 msgctxt "number_of_products_with_changes_since_last_export"
 msgid "Number of products with changes since last export"
 msgstr "Số sản phẩm có thay đổi kể từ lần xuất cuối cùng"
+
+msgctxt "number_of_products_withdrawn_from_the_market_since_last_export"
+msgid "Number of products withdrawn from the market since last export"
+msgstr ""
 
 msgctxt "only_export_products_with_changes"
 msgid "Only export products with changes"
@@ -6245,7 +6240,7 @@ msgstr "Hầu hết mọi người tiêu thụ quá nhiều muối (trung bình 
 
 msgctxt "nutrient_recommendation_salt_title"
 msgid "Limit the consumption of salt and salted food"
-msgstr "Toan1"
+msgstr "Hạn chế ăn muối và đồ ăn nhiều muối"
 
 msgctxt "nutrient_recommendation_salt_cooking_and_table"
 msgid "Reduce the quantity of salt used when cooking, and don't salt again at the table."
@@ -6525,5 +6520,17 @@ msgstr ""
 
 msgctxt "faq_for_producers"
 msgid "FAQ for producers"
+msgstr ""
+
+msgctxt "product_js_enter_value_between_0_and_100"
+msgid "Please enter a value between 0 and 100."
+msgstr ""
+
+msgctxt "product_js_sugars_warning"
+msgid "Sugars should not be higher than carbohydrates."
+msgstr ""
+
+msgctxt "product_js_saturated_fat_warning"
+msgid "Saturated fat should not be higher than fat."
 msgstr ""
 
