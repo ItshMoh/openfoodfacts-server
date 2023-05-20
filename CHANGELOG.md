@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.13.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.12.0...v2.13.0) (2023-05-20)
+
+
+### Features
+
+* ingredient analysis translations ([#7908](https://github.com/openfoodfacts/openfoodfacts-server/issues/7908)) ([9561506](https://github.com/openfoodfacts/openfoodfacts-server/commit/956150633fb5b353985a0caf8b49262675f02828))
+
+
+### Bug Fixes
+
+* encode `diffs` as JSON text in send_notification_for_product_change ([#8419](https://github.com/openfoodfacts/openfoodfacts-server/issues/8419)) ([2ab7fe6](https://github.com/openfoodfacts/openfoodfacts-server/commit/2ab7fe6980bba3baca34b516fc3870dd53d8cc70))
+* gzip all JSON OCRs when saving OCR file on disk ([#8320](https://github.com/openfoodfacts/openfoodfacts-server/issues/8320)) ([45df380](https://github.com/openfoodfacts/openfoodfacts-server/commit/45df380ee67c357fe86aa25880374d4133389081))
+* make products aligned again in list ([#7309](https://github.com/openfoodfacts/openfoodfacts-server/issues/7309)) ([cf700f0](https://github.com/openfoodfacts/openfoodfacts-server/commit/cf700f05354a1951bd6bb0778e209d6ad68e1ab1))
+* make products aligned again in list [#7309](https://github.com/openfoodfacts/openfoodfacts-server/issues/7309) ([#8423](https://github.com/openfoodfacts/openfoodfacts-server/issues/8423)) ([cf700f0](https://github.com/openfoodfacts/openfoodfacts-server/commit/cf700f05354a1951bd6bb0778e209d6ad68e1ab1))
+
+
+### Taxonomy
+
+* german ingredients ([#8426](https://github.com/openfoodfacts/openfoodfacts-server/issues/8426)) ([606f25e](https://github.com/openfoodfacts/openfoodfacts-server/commit/606f25ecbbd0e2966515d9d478f410bc4d134c60))
+* ingredients - whole chicken ([#8433](https://github.com/openfoodfacts/openfoodfacts-server/issues/8433)) ([95bb4e2](https://github.com/openfoodfacts/openfoodfacts-server/commit/95bb4e2f56a47b06662c96ffaf4a06357784af42))
+* lupine, einkorn, grey pea for Divinfood + tonka bean ([#8434](https://github.com/openfoodfacts/openfoodfacts-server/issues/8434)) ([a8a6387](https://github.com/openfoodfacts/openfoodfacts-server/commit/a8a638777f081b339a2b699431099063d36c04bf))
+* portuguese synonyme ([#8429](https://github.com/openfoodfacts/openfoodfacts-server/issues/8429)) ([32256a0](https://github.com/openfoodfacts/openfoodfacts-server/commit/32256a0b3a4e473e3cd8c1f624db2cccf18ccfce))
+
 ## [2.12.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.11.0...v2.12.0) (2023-05-15)
 
 
